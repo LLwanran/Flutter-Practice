@@ -17,7 +17,7 @@ import 'package:demo/SplashScreen/root.dart';
 // main 入口方法，进入 MyApp
 void main() {
   // 基础组件
-  // runApp(Basic(items: new List<String>.generate(50, (i) => "$i 号技师")));
+  runApp(Basic(items: new List<String>.generate(50, (i) => "$i 号技师")));
 
   // 导航跳转
   // runApp(MaterialApp(title: '导航', home: Navigation()));
@@ -56,7 +56,7 @@ void main() {
   // runApp(RootApp());
 
   // Splash Screen
-  runApp(MaterialApp(
-    home: MyApp(),
-  ));
+  // runApp(MaterialApp(
+  //   home: MyApp(),
+  // ));
 }
